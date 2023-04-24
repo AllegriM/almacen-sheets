@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  images: {
+    domains: ["res.cloudinary.com", "icongr.am"],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
